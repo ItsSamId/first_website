@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_wrap {
+  width: 100%;
+}
+.header_bg {
+  background-color: orangered;
+  border-top: 5px solid #e22bca;
+  height: 85px;
+  margin-top: 20px;
+}
+.wrap_header {
+  width: 960px;
+  margin: 0px auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: orangered;
+  color: white;
+  display: block;
+  border-right: 2px solid green;
+  border-left: 2px solid green;
+}
+.wrap_header header {
+  padding: 15px;
+}
+.wrap_header h2 {
+  margin: 5px 0;
+}
+.wrap_nav {
+  background-color: green;
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+  height: 38px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+.nav_bg {
+  background-color: green;
+  border-bottom: 5px solid #e22bca;
+  border-top: 5px solid #e22bca;
+}
+.wrap_nav ul {
+  list-style-type: none;
+  background-color: green;
+}
+.wrap_nav ul li {
+  float: left;
+  border-right: 2px solid red;
+  position: relative;
+}
+.wrap_nav ul li a:hover {
+  color: blue;
+  background-color: black;
+}
+.wrap_nav ul li:hover ul {
+  left: 0;
+}
+.wrap_nav ul li ul li {
+  width: 200px;
+  border-right: none;
+  border-bottom: 2px solid #e22bca;
+  position: relative;
+}
+.wrap_nav ul li ul li:first-child {
+  border-top: 5px solid #e22bca;
+}
+.wrap_nav ul li ul li:last-child {
+  border-bottom: none;
+}
+.wrap_nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrap_nav ul li ul {
+  position: absolute;
+  left: -999999px;
+}
+.wrap_nav ul li ul li ul {
+  position: absolute;
+  top: -99999999px;
+}
+.wrap_nav ul li ul li:hover ul {
+  top: 0;
+  left: 200px;
+}
+.wrap_nav ul li ul li ul li:first-child {
+  border-top: none;
+}
+.wrap_nav ul li ul li ul li {
+  border-left: 2px solid#e22bca;
+}
+.audio_wrap audio {
+  width: 100%;
+  margin: 0 auto;
+  background-color: greenyellow;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+}
+.audio_title {
+  text-align: center;
+  color: green;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container_wrap {
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  display: block;
+}
+
+.container_wrap figure img {
+  width: 450px;
+}
+.container_wrap figure {
+  width: 450px;
+  display: block;
+  background-color: red;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container_wrap figcaption {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.container_bg {
+  background-color: gray;
+}
+.container_wrap blockquote {
+  background-color: #e4dede;
+  border-left: 2px solid orange;
+  margin-left: 30px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.container_wrap blockquote h2 {
+  margin-top: 5px;
+}
+.article_wrap {
+  width: 620px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.article_wrap h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+  color: green;
+  margin-top: 20px;
+}
+
+.article_wrap p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aside_wrap {
+  width: 300px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.aside_wrap h2 {
+  color: green;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.aside_wrap ul {
+  list-style-type: none;
+}
+.aside_wrap ul li {
+  margin-bottom: 5px;
+  border-bottom: 2px solid red;
+}
+.aside_wrap ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.aside_wrap ul li:last-child {
+  border-bottom: none;
+}
+.footer_wrap {
+  width: 960px;
+  margin: 0 auto;
+  background-color: black;
+}
+.footer_wrap p {
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.footer_bg {
+  background-color: black;
+  border-top: 2px solid red;
+}
